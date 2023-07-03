@@ -1,7 +1,7 @@
 import React from 'react'
 import CartIcon from '../Cart/CartIcon'
 import classes from './HeaderCartbtn.module.css'
-function HeaderCartbtn() {
+function HeaderCartbtn(props) {
   return (
     <button className={classes.button}>
         <span className={classes.icon}>
