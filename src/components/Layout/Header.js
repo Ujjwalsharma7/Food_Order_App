@@ -1,9 +1,10 @@
 import React from 'react'
 import mealsImage from '../../assets/meals.jpg'
+import classes from './Header.module.css'
 function Header() {
   return (
    <React.Fragment>
-    <header>
+    <header className={classes.header}>
         <h1>UjjuMeals</h1>
         <button>Cart</button>
     </header>
