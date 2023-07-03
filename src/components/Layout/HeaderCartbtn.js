@@ -4,11 +4,11 @@ import classes from './HeaderCartbtn.module.css'
 function HeaderCartbtn() {
   return (
     <button className={classes.button}>
-        <span>
+        <span className={classes.icon}>
             <CartIcon />
         </span>
-        <span> Your Cart</span>
-        <span>
+        <span > Your Cart</span>
+        <span className={classes.badge}>
             3
         </span>
     </button>
