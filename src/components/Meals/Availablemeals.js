@@ -1,5 +1,5 @@
 import React from 'react'
-
+import classes from './Availablemeals.module.css'
 const DUMMY_MEALS = [
     {
       id: 'm1',
@@ -31,7 +31,7 @@ function Availablemeals() {
         <li>{meal.name}</li>
     });
   return (
-    <section>
+    <section className={classes.meals}>
         <ul>
             {mealsList}
         </ul>
